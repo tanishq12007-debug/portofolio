@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanishque - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <header>
+    <h2 class="logo">Tanishque</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <!-- Put your photo here: <img src="photo.jpg" alt="My photo" class="photo"> -->
+    <div class="photo">T</div>
+    <h1>Hi, I'm Tanishque</h1>
+    <p>I am a front-end developer from Lucknow. I make websites using HTML, CSS and JavaScript.</p>
+    <a href="#projects" class="button">My Projects</a>
+    <a href="#contact" class="button button-light">Contact Me</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>I am a student from Lucknow. I am learning web development. I like making websites that look nice and work well on both phones and computers.</p>
+    <p>I have made a few projects, like a web app for my furniture business and a website for a cafe.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="alt">
+    <div class="container">
+      <h2>Education</h2>
+
+      <div class="box">
+        <h3>[Your Degree]</h3>
+        <p>Shri Ramswaroop Memorial University</p>
+        <p>2025 - 2029</p>
+      </div>
+
+      <div class="box">
+        <h3>Web Development Course</h3>
+        <p>Learning HTML, CSS and JavaScript. This portfolio is my assignment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="row">
+      <div class="box">
+        <h3>Coding</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React (basics)</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>Design</h3>
+        <ul>
+          <li>Flexbox</li>
+          <li>CSS Grid</li>
+          <li>Responsive design</li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>Tools</h3>
+        <ul>
+          <li>VS Code</li>
+          <li>Git and GitHub</li>
+          <li>GitHub Pages</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="alt">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+
+        <div class="box">
+          <h3>ChairTech ERP</h3>
+          <p>A web app for my furniture business. It has different logins for each role and tracks an order from quotation to dispatch.</p>
+        </div>
+
+        <div class="box">
+          <h3>FarmLink</h3>
+          <p>A project for Smart India Hackathon. It is a React website that helps farmers find good prices and buyers.</p>
+        </div>
+
+        <div class="box">
+          <h3>Gulmohar Coffee House</h3>
+          <p>A website for a cafe with reservation and feedback forms. It sends confirmation emails.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <p>You can send me a message using this form.</p>
+
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="Your email">
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your message"></textarea>
+
+      <button type="submit" class="button">Send</button>
+    </form>
+
+    <p class="links">
+      Email: <a href="mailto:tanish@gmail.com">tanish@gmail.com</a><br>
+      GitHub: <a href="https://github.com/tanishq12007-debug">github.com/tanishq12007-debug</a><br>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year">2026</span> Tanishque. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
